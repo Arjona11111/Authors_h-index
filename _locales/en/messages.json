@@ -1,0 +1,27 @@
+{
+  "extName":{
+    "message":"Authors - Quick Search"
+  },
+  "extDesc":{
+    "message":"Performs a topic search in Scopus."
+  },
+  "putApi":{
+    "message":"Save"
+  },
+  "resetButton":{
+    "message":"Reset"
+  },
+  "optionMSG":{
+    "message":"Settings"
+  },
+  "wosALLDB":{
+    "message":"<strong>Scopus</strong> - Welcome to Scopus"
+  },
+
+  "placeHolder":{
+    "message":"Enter a topic to search"
+  },
+  "contextLabel":{
+    "message":"Search Scopus"
+  }
+}

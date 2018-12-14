@@ -1,0 +1,63 @@
+<!doctype html>
+<html style="min-width:480px;min-height:72px">
+
+<head>
+  <title>Authors - Quick Search</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="jquery.js"></script>
+  <script src="index.js"></script>
+</head>
+
+<body>
+
+  <div id="searchForm">
+    <div class='mainDiv'>
+      <div id='mainLogo'>
+        <img border='0' < img src='logo_chemotion.png' width="130px" height="75px">
+      </div>
+
+      <div class='country-col'>
+        <div class='logoBar'><span>Authors Search</span></div>
+      </div>
+
+      <p class='searchText'>Search for the authors with the highest h-index </p>
+      <div id='form'>
+        <div id='container1' class='search-criteria-input-wr'>
+          <input type='text' name='topic' class='search-criteria-input' id='inputField' size='32' maxlength='255' placeHolder="Enter a topic to search"></input>
+          <input class='btnR' type='reset' id='resetButton' name='btnR' value="" />
+        </div>
+
+        <div id='container3' class='searchButton'>
+          <input class='btnWS' type='button' name='btnWS' id='search1' value="Search">
+        </div>
+        <br></br>
+        <div class="lds-ring" id="ring">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <table id="resultsTable">
+          <tbody id='body'>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>h-index</th>
+              <th>Profile URL</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class='footer'>
+        <a href="/options.html" id="optionMsg">Settings</a>
+        &nbsp;|&nbsp; &#9400; Copyright
+        <span id="copyrightYear"></span>
+        <a href='https://dev.elsevier.com/' target='_blank'>
+          Elsevier Developer Portal
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

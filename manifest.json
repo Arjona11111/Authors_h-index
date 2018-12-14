@@ -1,0 +1,32 @@
+{
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDesc__",
+  "version": "1.2",
+  "default_locale": "en",
+  "content_security_policy": "script-src 'self' https://dev.elsevier.com/; object-src 'self'",
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": false
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "16": "logo_chemotion.png",
+    "48": "logo_chemotion.png",
+    "128": "logo_chemotion.png"
+  },
+  "browser_action": {
+    "default_icon": "logo_chemotion.png",
+    "default_popup": "popup.html",
+    "default_title": "__MSG_extName__"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "contextMenus"
+  ]
+}
